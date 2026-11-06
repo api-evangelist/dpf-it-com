@@ -1,4 +1,4 @@
-# dpf-it-com
+# DPF
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-dpf-it-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://dpf-it.com/
+DPF is an AI‑powered data processing platform offering zero‑ETL transformation to Apache Iceberg. It enables users to ingest, transform, and load data in open formats via natural‑language prompts, provides a built‑in query engine, and supports bring‑your‑own‑compute integrations for collaborative data workflows.
+
+**Areas:** Data · AI · ETL · Apache Iceberg · Platform · Company
+
+## DPF on APIs.io
+
+Everything profiled for DPF is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dpf-it-com/](https://apis.io/providers/dpf-it-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [DPF Account API](https://apis.io/apis/dpf-it-com/dpf-it-com-account-api/) — Account management endpoints (password reset, etc.)
+- [DPF Authentication API](https://apis.io/apis/dpf-it-com/dpf-it-com-authentication-api/) — User authentication and registration endpoints
+- [DPF Connections API](https://apis.io/apis/dpf-it-com/dpf-it-com-connections-api/) — Workspace external connections (e.g. SFTP) with managed keypairs
+- [DPF Contact API](https://apis.io/apis/dpf-it-com/dpf-it-com-contact-api/) — Contact form endpoint with two modes: authenticated (user info auto-populated from account) and unauthenticated (email required in request body). No…
+- [DPF Data Specs API](https://apis.io/apis/dpf-it-com/dpf-it-com-data-specs-api/) — Data transformation pipeline management and orchestration
+- [DPF Iceberg REST Catalog API](https://apis.io/apis/dpf-it-com/dpf-it-com-iceberg-rest-catalog-api/) — Apache Iceberg REST Catalog proxy with JWT authentication and workspace-scoped namespace access control. Provides standard Iceberg REST Catalog API access…
+- [DPF Job Triggers API](https://apis.io/apis/dpf-it-com/dpf-it-com-job-triggers-api/) — Scheduled ingestion triggers (e.g. SFTP polling) with AI-generated pre/post-processing code
+- [DPF MCP API](https://apis.io/apis/dpf-it-com/dpf-it-com-mcp-api/) — Remote Streamable HTTP MCP (Model Context Protocol) server. A single JSON-RPC endpoint, authenticated with a Bearer token from either the OAuth 2.1…
+- [DPF OAuth 2.1 Authorization Server API](https://apis.io/apis/dpf-it-com/dpf-it-com-oauth-2-1-authorization-server-api/) — PKCE-only OAuth 2.1 authorization server with Dynamic Client Registration (DCR) and refresh token rotation. Used by remote MCP clients (VS Code, Cursor,…
+- [DPF Query API](https://apis.io/apis/dpf-it-com/dpf-it-com-query-api/) — DuckDB-powered SQL query interface for executing analytical queries against Iceberg tables. Queries are scoped to a single authorized namespace per request.
+- [DPF Workspaces API](https://apis.io/apis/dpf-it-com/dpf-it-com-workspaces-api/) — Workspace management and collaboration endpoints
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Dpf It Com Agentic Access](https://apis.io/agentic-access/dpf-it-com/dpf-it-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Check Spec Files Response](https://apis.io/schemas/dpf-it-com/dpf-it-com-check-spec-files-response/)
+- [Create Spec](https://apis.io/schemas/dpf-it-com/dpf-it-com-create-spec-request/)
+- [Get Status Response (queried by jobId)](https://apis.io/schemas/dpf-it-com/dpf-it-com-get-status-by-job-id-response/)
+- [Get Status Response (queried by specId)](https://apis.io/schemas/dpf-it-com/dpf-it-com-get-status-by-spec-id-response/)
+- [QueryResponse](https://apis.io/schemas/dpf-it-com/dpf-it-com-query-response/)
+- [Update Spec](https://apis.io/schemas/dpf-it-com/dpf-it-com-update-spec-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Dpf It Com Context](https://apis.io/jsonld/dpf-it-com/dpf-it-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [DPF API Rules](https://apis.io/rules/dpf-it-com/dpf-it-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dpf It Com Authentication](https://apis.io/security/dpf-it-com/dpf-it-com-authentication/)
+- [Dpf It Com Domain Security](https://apis.io/security/dpf-it-com/dpf-it-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dpf It Com Plans Pricing](https://apis.io/plans/dpf-it-com/dpf-it-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.dpf-it.com/)
+- [Documentation](https://www.dpf-it.com/integration-guide.html)
+- [API reference](https://dpf-it.com/llms.txt)
+- [Pricing](https://www.dpf-it.com/pricing.html)
+- [Terms of service](https://www.dpf-it.com/terms-of-service.html)
+- [Privacy policy](https://www.dpf-it.com/privacy-policy.html)
+
+## API Evangelist rating
+
+**Kin Score 51.7** — developing · rubric 0.27.0 · scored 2026-11-06
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 62.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 60.0 |
+
+**Agent readiness 56.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dpf-it-com/](https://apis.io/providers/dpf-it-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DPF: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dpf-it-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
